@@ -18,6 +18,32 @@ kode
 output
 <img src = "gambar/outputs.png"/>
 
+### tugas no 2 ### 
+
+1. Flutter Dibangun di Atas Dart
+Flutter adalah framework yang sepenuhnya ditulis menggunakan Dart. Jadi, seluruh kode yang akan Anda tulis untuk mengembangkan aplikasi di Flutter menggunakan sintaks dan fitur Dart. Memahami Dart akan membantu Anda lebih efisien dalam menulis kode yang tepat dan memahami apa yang terjadi di balik layar dalam Flutter.
+
+2. Struktur dan Sintaksis Dart
+Dart memiliki sintaksis dan konsep seperti object-oriented programming (OOP), yang berbeda dari bahasa lain seperti JavaScript atau Python. Memahami konsep dasar Dart seperti class, objects, inheritance, async/await, dan generics akan mempermudah proses pengembangan aplikasi Flutter.
+
+3. Manajemen State dan Asynchronous Programming
+Flutter sangat bergantung pada state management dan asynchronous programming. Dart menyediakan fitur bawaan seperti Future, async/await, dan Stream, yang sering digunakan dalam Flutter untuk menangani panggilan API, rendering UI secara asinkron, dan aliran data. Pemahaman mendalam tentang fitur ini penting untuk mengelola interaksi aplikasi dengan backend dan UI yang responsif.
+
+4. Hot Reload dan Hot Restart
+Dart dirancang untuk bekerja optimal dengan fitur hot reload dan hot restart di Flutter. Memahami bagaimana Dart menangani perubahan state atau modifikasi kode secara dinamis akan membantu dalam proses pengembangan dan debugging yang lebih cepat.
+
+5. Custom Widget Development
+Di Flutter, UI dibuat dengan widget, yang pada dasarnya adalah class Dart. Memahami konsep OOP di Dart seperti pewarisan (inheritance), polimorfisme, dan komposisi akan membantu Anda dalam membangun widget yang lebih kompleks, reusable, dan terstruktur.
+
+6. Perfomansi
+Dart mendukung just-in-time (JIT) dan ahead-of-time (AOT) compilation, yang memungkinkan aplikasi Flutter memiliki performa yang tinggi di berbagai platform. Memahami bagaimana Dart dikompilasi dan bekerja di bawah kap sangat membantu dalam mengoptimalkan kinerja aplikasi yang Anda buat.
+
+7. Ekosistem Dart
+Dart memiliki banyak library dan package yang mendukung pengembangan aplikasi, seperti pengelolaan state, networking, animasi, dan lainnya. Menguasai cara kerja package Dart, cara menambahkannya ke proyek Flutter, serta memanfaatkan library bawaan akan mempercepat dan memudahkan pengembangan.
+
+8. Pengelolaan Memory dan Garbage Collection
+Memahami bagaimana Dart mengelola memori dan garbage collection akan membantu Anda menulis kode yang lebih efisien dan menghindari kebocoran memori yang dapat mempengaruhi performa aplikasi.
+
 ### tugas no 3 ###
 
 1. Persiapan Awal
