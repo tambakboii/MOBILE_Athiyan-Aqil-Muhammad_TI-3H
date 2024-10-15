@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     Widget textSection = Container(
   padding: const EdgeInsets.all(32),
   child: const Text(
-    "Gunung Bromo adalah salah satu destinasi wisata paling populer di Indonesia, terutama bagi para pecinta alam dan fotografi."
+    "batu flover garden adalah taman bunga yang memiliki beraneka ragam warna bunga, cocok untuk wisata keluarga"
     " Athiyan Aqil Muhammad | 2241720190."
         " Selamat mengerjakan 🙂.",
     softWrap: true,
