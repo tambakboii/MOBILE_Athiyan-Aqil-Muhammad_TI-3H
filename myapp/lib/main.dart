@@ -77,15 +77,21 @@ class MyApp extends StatelessWidget {
           title: const Text('aplikasi praktikum'),
           backgroundColor: Colors.white,
         ),
-        body: Column(
+        body: ListView( // mengubah menjadi listView agar dapat di scroll
           // Menggunakan titleSection dan buttonSection di sini
           children: [
+            Image.asset(
+              'images/gunung batu.jpg',
+              width: 600,
+              height: 240,
+              fit: BoxFit.cover,
+            ),
             titleSection, 
             buttonSection,
             textSection, 
-            const Center(
-              child: Text('Hello World'),
-            ),
+            // const Center(
+            //   child: Text('Hello World'),
+            // ),
           ],
         ),
       ),
