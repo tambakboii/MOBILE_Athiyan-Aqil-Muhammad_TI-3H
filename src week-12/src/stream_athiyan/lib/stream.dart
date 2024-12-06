@@ -14,4 +14,14 @@ class ColorStream {
     Colors.transparent,
     Colors.indigo
   ];
+  Stream<Color> getColors() async* {
+    // soal nomor 3
+    // untuk menghasilkan aliran data (stream) yang mengirimkan 
+    // elemen-elemen dari daftar colors secara periodik.
+    yield* Stream.periodic(
+      const Duration(seconds: 1),(int t){
+        int index = t % colors.length;
+        return colors[index];
+      });
+  }
 }
